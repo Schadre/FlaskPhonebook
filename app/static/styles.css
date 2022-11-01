@@ -3,18 +3,30 @@
 }
 
 nav {
-    background: rgba(0, 17, 93, 0.7);
+    background: rgba(17, 17, 122, 0.6);
 }
 
 body {
-    padding-top: 50px;
+    padding-top: 0px;
   }
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgba(17, 17, 122);
 }
 
-a :hover {
-    color: blueviolet;
+@media (max-width: 300px) {
+    html { font-size: 70%; }
+}
+
+@media (min-width: 500px) {
+    html { font-size: 80%; }
+}
+
+@media (min-width: 700px) {
+    html { font-size: 100%; }
+}
+
+@media (min-width: 1200px) {
+    html { font-size: 120%; }
 }
